@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos-Barbería Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="caja"> 
+        <h1><img src="/img/logo.png" alt="logo barberia"></h1>
+        <nav>
+            <ul class="navegacion">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main class="mainContactos">
+        <form action="" class="formContactos">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido">
+
+            <label for="correoelecctronico">Correo Electronico</label>
+            <input type="text"id="correoelecctronico">
+
+            <label for="telefono">Numero telefonico</label>
+            <input type="text"id="telefono">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="70" rows="10"></textarea>
+
+            <div>
+                <p>¿Como le gustaria que lo contactemos?</p>
+            
+            <label for="radio-email">Email</label>
+            <input type="radio" name="contacto" "email" id="radio-email">
+
+            <label for="radio-telefono">Telefono</label>
+            <input type="radio" name="contacto"  value="telefono" id="radio-telefono">
+
+            <label for="radio-whatsapp">Whatsapp</label>
+            <input type="radio" name="contacto"  value="whatsapp" id="radio-whatsApp">
+            </div>   
+            
+            <label for=""><input type="checkbox">¿Le gustaria recibir novedades de Barberia Alura?</label>
+            
+            <input type="submit" value="Enviar Formulario" class="buttoncontact">
+        </form>
+    </main>
+    <footer>
+        <img src="/img/logo-blanco.png" alt="">
+        <p class="Copyright">&copy; Copyright Barbería Alura - 2024</p>
+    </footer>
+</body>
+</html>
